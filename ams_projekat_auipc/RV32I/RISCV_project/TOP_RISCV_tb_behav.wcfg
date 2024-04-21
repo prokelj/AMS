@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TOP_RISCV_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TOP_RISCV_tb" />
+            <top_module name="alu_ops_pkg" />
+            <top_module name="controlpath_signals_pkg" />
+            <top_module name="datapath_signals_pkg" />
+            <top_module name="txt_util" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="544.666 ns"></ZoomStartTime>
+      <ZoomEndTime time="3,126.667 ns"></ZoomEndTime>
+      <Cursor1Time time="2,696.333 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="217"></NameColumnWidth>
+      <ValueColumnWidth column_width="93"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/TOP_RISCV_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_RISCV_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_RISCV_tb/ena_instr_s" type="logic">
+      <obj_property name="ElementShortName">ena_instr_s</obj_property>
+      <obj_property name="ObjectShortName">ena_instr_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_RISCV_tb/wea_instr_s" type="array">
+      <obj_property name="ElementShortName">wea_instr_s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wea_instr_s[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_RISCV_tb/addra_instr_s" type="array">
+      <obj_property name="ElementShortName">addra_instr_s[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addra_instr_s[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_RISCV_tb/dina_instr_s" type="array">
+      <obj_property name="ElementShortName">dina_instr_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina_instr_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_RISCV_tb/douta_instr_s" type="array">
+      <obj_property name="ElementShortName">douta_instr_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">douta_instr_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_RISCV_tb/ena_data_s" type="logic">
+      <obj_property name="ElementShortName">ena_data_s</obj_property>
+      <obj_property name="ObjectShortName">ena_data_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_RISCV_tb/wea_data_s" type="array">
+      <obj_property name="ElementShortName">wea_data_s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wea_data_s[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_RISCV_tb/addra_data_s" type="array">
+      <obj_property name="ElementShortName">addra_data_s[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addra_data_s[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_RISCV_tb/dina_data_s" type="array">
+      <obj_property name="ElementShortName">dina_data_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina_data_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_RISCV_tb/douta_data_s" type="array">
+      <obj_property name="ElementShortName">douta_data_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">douta_data_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_RISCV_tb/addra_data_32_s" type="array">
+      <obj_property name="ElementShortName">addra_data_32_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addra_data_32_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_RISCV_tb/TOP_RISCV_1/data_path_1/register_bank_1/rd_we_i" type="logic">
+      <obj_property name="ElementShortName">rd_we_i</obj_property>
+      <obj_property name="ObjectShortName">rd_we_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_RISCV_tb/TOP_RISCV_1/data_path_1/register_bank_1/rd_address_i" type="array">
+      <obj_property name="ElementShortName">rd_address_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_address_i[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_RISCV_tb/TOP_RISCV_1/data_path_1/register_bank_1/rd_data_i" type="array">
+      <obj_property name="ElementShortName">rd_data_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_RISCV_tb/instruction_mem/addr_a_i" type="array">
+      <obj_property name="ElementShortName">addr_a_i[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_a_i[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_RISCV_tb/TOP_RISCV_1/data_path_1/register_bank_1/reg_bank_s" type="array">
+      <obj_property name="ElementShortName">reg_bank_s[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_bank_s[0:31][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>
